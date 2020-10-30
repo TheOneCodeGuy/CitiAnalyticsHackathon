@@ -31,6 +31,6 @@ Submission format.csv: 6218 x 3 : expected results file containing predictions f
 #### Evaluation Criteria
 The evaluation metric will be the mean of the weighted avg. of the recall score generated for both the y-variables 
 
-\begin{equation}
-score1 = 100*recall\_score(actual\_values['payment\_code'], predicted\_values['payment\_code'], average ='weighted') \\ score2 = 100*recall\_score(actual\_values['coupon\_code'], predicted\_values['coupon\_code'], average ='weighted')\\ score = (score1+score2)/2
-\end{equation}
+score1 = 100 x recall\_score(actual\_values['payment\_code'], predicted\_values['payment\_code'], average ='weighted')  
+score2 = 100 x recall\_score(actual\_values['coupon\_code'], predicted\_values['coupon\_code'], average ='weighted')  
+score = (score1+score2)/2
